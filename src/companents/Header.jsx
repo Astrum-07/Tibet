@@ -3,7 +3,7 @@ import Logo from "../assets/img/logo.png";
 const Header = () => {
   return (
     <div className=" xe:h-screen xs:h-[120vh] bg-cover bg-center"  
-      style={{ backgroundImage: "url('/public/herobg.png')" }}>
+      style={{ backgroundImage: "url('../public/img/herobg.png')" }}>
       <header className="bg-[rgba(188,238,197,0.2)] backdrop-blur-[6px]  py-3 sticky top-0 z-50 ">
         <div className="mycontainer">
           <nav className="navbar flex items-center justify-between">

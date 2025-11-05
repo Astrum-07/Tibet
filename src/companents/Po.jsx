@@ -15,7 +15,7 @@ const Po = () => {
           <div className="boxes grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 justify-between">
             <div
               className=" h-[500px] rounded-[50px]  bg-cover bg-center relative"
-              style={{ backgroundImage: "url('/public/river.png')" }}
+              style={{ backgroundImage: "url('./public/river.png')" }}
             >
               <div className="absolute right-0 top-10 w-[65px] h-8 backdrop-blur-sm bg-[rgba(253,253,253,0.4)] px-2 py-1 rounded-[4px_0_0_4px]">
                 <i class="fa-solid fa-star text-yellow-400"></i> 4.9
